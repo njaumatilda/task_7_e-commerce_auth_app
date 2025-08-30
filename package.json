@@ -1,0 +1,30 @@
+{
+  "name": "task_5_e-commerce_auth_app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njaumatilda/task_5_e-commerce_auth_app.git"
+  },
+  "keywords": [],
+  "author": "Matilda Njau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njaumatilda/task_5_e-commerce_auth_app/issues"
+  },
+  "homepage": "https://github.com/njaumatilda/task_5_e-commerce_auth_app#readme",
+  "description": "An e-commerce app",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "mongoose-paginate-v2": "^1.9.1"
+  }
+}
