@@ -4,7 +4,7 @@ import {
   getSingleOrder,
   makeOrder,
   changeOrderStatus,
-} from "../contollers/order.js"
+} from "../contollers/orders.js"
 
 
 const router = express.Router()

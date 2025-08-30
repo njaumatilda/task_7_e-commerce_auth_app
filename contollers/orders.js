@@ -138,6 +138,13 @@ const changeOrderStatus = async (req, res) => {
       { new: true }
     )
 
+    const orderOwnerId = updatedOrder.ownerId.toString()
+    req.io.to(orderOwnerId).emit("shipping-notification", {
+      title: "New shipping status",
+      message:
+      `Your last order shipping status has been updated to ${updatedOrder.shippingStatus}`,
+    })
+
     res.status(200).json({
       message: "Order status updated successfully",
       updatedOrder,
