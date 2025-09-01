@@ -2,7 +2,7 @@
 
 ---
 
-This is a a continuation of my REST API project for an e-commerce app from my previous TASK 5 version that:
+This is a a continuation of my REST API project for an e-commerce app from my previous TASK 6 version that:
 + Provided two POST endpoints; for registering and logging in users. 
 + Provided a single GET enpoint that is not protected so anyone logged in or not can access it, and it returns all the products in the app
 + Provided two POST endpoints that are protected and only admins are authorized to make requests.
